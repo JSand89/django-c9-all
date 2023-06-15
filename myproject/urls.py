@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-# urlpatterns += [
-#     path('attendance/',include('attendance.urls'))
-# ]
+urlpatterns += [
+    path('attendance/',include('attendance.urls'))
+]
